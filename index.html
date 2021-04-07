@@ -5,6 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Agence Lorem</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <!-- CSS EKKO -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+            integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+            crossorigin="anonymous"
+        />
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css" />
         <!-- Le CSS de Bootstrap -->
@@ -29,7 +54,391 @@
         />
     </head>
     <body>
-        <h1>COUCOU</h1>
+        <!-- HEADER NAVIGATION ET TITRE -->
+        <header id="top">
+            <div class="container">
+                <nav
+                    class="navbar navbar-expand-md bg-dark navbar-dark fixed-top"
+                    id="nav-bar"
+                >
+                    <div class="container">
+                        <a href="index.html" class="navbar-brand">Lorem</a>
+                        <button
+                            class="navbar-toggler"
+                            data-toggle="collapse"
+                            data-targer="#navbarCollapse"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="navbarCollapse"
+                        >
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item mr-1">
+                                    <a href="#top" class="nav-link">Accueil</a>
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a href="#aPropos" class="nav-link"
+                                        >Concept</a
+                                    >
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a href="#gallerie" class="nav-link"
+                                        >Nos Projets</a
+                                    >
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a href="#prix" class="nav-link">Tarifs</a>
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a href="#contact" class="nav-link"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="text-intro">
+                    <div class="preTxt font-italic">
+                        Vos idées, notre savoir
+                    </div>
+                    <h1>Agence Lorem</h1>
+                    <a href="#" class="btn btn-dark mt-4">En savoir plus</a>
+                    <a href="#" class="btn btn-outline-dark mt-4"
+                        >Nos Projets</a
+                    >
+                </div>
+            </div>
+        </header>
+
+        <!-- SECTION A PROPOS -->
+
+        <section id="aPropos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>A Propos</h2>
+                        <hr />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Sapiente eveniet, impedit minus cumque omnis
+                            officiis nobis accusantium maiores, dolor quidem
+                            nihil. Sunt adipisci facilis placeat veritatis!
+                            Iste, nostrum magnam. Non!
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionEx">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn"
+                                            type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapseOne"
+                                        >
+                                            <i class="fas fa-chevron-right"></i>
+                                            &nbsp;Les Détails
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div
+                                    id="collapseOne"
+                                    class="collapse show"
+                                    data-parent="#accordionEx"
+                                >
+                                    <div class="card-body">
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Consequatur deleniti
+                                        voluptatem aperiam perspiciatis dolor
+                                        fugit aliquam quaerat voluptatum error
+                                        aut!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn"
+                                            type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapseTwo"
+                                        >
+                                            <i class="fas fa-chevron-right"></i>
+                                            &nbsp;Plus de Détails
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="collapse"
+                                    data-parent="#accordionEx"
+                                >
+                                    <div class="card-body">
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Consequatur deleniti
+                                        voluptatem aperiam perspiciatis dolor
+                                        fugit aliquam quaerat voluptatum error
+                                        aut!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn"
+                                            type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapseThree"
+                                        >
+                                            <i class="fas fa-chevron-right"></i>
+                                            &nbsp;Encore des Détails
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div
+                                    id="collapseThree"
+                                    class="collapse"
+                                    data-parent="#accordionEx"
+                                >
+                                    <div class="card-body">
+                                        Lorem ipsum dolor, sit amet consectetur
+                                        adipisicing elit. Consequatur deleniti
+                                        voluptatem aperiam perspiciatis dolor
+                                        fugit aliquam quaerat voluptatum error
+                                        aut!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3 ICONES -->
+
+        <section id="icones">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2><i class="fab fa-android"></i>&nbsp;Android</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Iusto natus vel facere aliquam voluptatem ab
+                            veniam praesentium laboriosam doloribus enim.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><i class="fas fa-archway"></i>&nbsp;Boutique</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Iusto natus vel facere aliquam voluptatem ab
+                            veniam praesentium laboriosam doloribus enim.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><i class="fas fa-atom"></i>&nbsp;Tech</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Iusto natus vel facere aliquam voluptatem ab
+                            veniam praesentium laboriosam doloribus enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PREMIERE BANNIERE -->
+
+        <section id="ban1" class="py-2">
+            <div class="container py-5">
+                <h2 class="pb-3">Etes-vous prêt à commencer</h2>
+                <p class="text-dark d-none d-md-block">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nesciunt doloribus inventore dolorum, ad omnis dolorem.
+                </p>
+                <a href="#" class="btn btn-primary">Démarrer maintenant</a>
+            </div>
+        </section>
+
+        <!--SECTION GALLERIE      -->
+
+        <section id="gallerie">
+            <div class="container">
+                <h2 class="text-center h2Photos">Nos projets</h2>
+                <p class="text-center pb-4">Nos réalisation</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="row mb-3">
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=251"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=251"
+                                    alt="collines vue du ciel"
+                                    class="img-fluid"
+                            /></a>
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=259"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=259"
+                                    alt="NYC "
+                                    class="img-fluid"
+                            /></a>
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=200"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=200"
+                                    alt="vache de Sibérie"
+                                    class="img-fluid"
+                            /></a>
+                        </div>
+                        <div class="row">
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=254"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=254"
+                                    alt="route dans les arbres"
+                                    class="img-fluid"
+                            /></a>
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=288"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=288"
+                                    alt="paysage urbain "
+                                    class="img-fluid"
+                            /></a>
+                            <a
+                                href="https://unsplash.it/1200/768.jpg?image=222"
+                                data-toggle="lightbox"
+                                data-gallery="example-gallery"
+                                class="col-sm-4"
+                            >
+                                <img
+                                    src="https://unsplash.it/1200/768.jpg?image=222"
+                                    alt="ciel voilé"
+                                    class="img-fluid"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECONDE BANNIERE CAROUSEL TEXT -->
+
+        <section id="ban2" class="py-2">
+            <div class="container">
+                <div
+                    id="carouselContent"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active text-center p-4">
+                            <p class="font-italic">
+                                'Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.'
+                            </p>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <p class="font-italic">
+                                'Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.'
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARTES -->
+        <section id="prix">
+            <h2 class="text-center offreH">Nos offres</h2>
+            <hr />
+            <div id="cartes" class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="threeCards">
+                            <div class="header">
+                                <h2>
+                                    <span class="spanPrix">9.99 €</span>/mois
+                                </h2>
+                                <div class="type">
+                                    <h2>Amateur</h2>
+                                </div>
+                            </div>
+                            <div class="details">2G de bande passante</div>
+                            <div class="details">150GB de stockage</div>
+                            <div class="details">5 profils</div>
+                            <div class="details">3 noms de domaines</div>
+                            <div id="btn"><a href="#">S'inscrire</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="threeCards">
+                            <div class="header">
+                                <h2>
+                                    <span class="spanPrix">59.99 €</span>/mois
+                                </h2>
+                                <div class="type">
+                                    <h2>Professionnel</h2>
+                                </div>
+                            </div>
+                            <div class="details">2G de bande passante</div>
+                            <div class="details">150GB de stockage</div>
+                            <div class="details">5 profils</div>
+                            <div class="details">3 noms de domaines</div>
+                            <div id="btn"><a href="#">S'inscrire</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="threeCards">
+                            <div class="header">
+                                <h2>
+                                    <span class="spanPrix">99.99 €</span>/mois
+                                </h2>
+                                <div class="type">
+                                    <h2>Entreprise</h2>
+                                </div>
+                            </div>
+                            <div class="details">2G de bande passante</div>
+                            <div class="details">150GB de stockage</div>
+                            <div class="details">5 profils</div>
+                            <div class="details">3 noms de domaines</div>
+                            <div id="btn"><a href="#">S'inscrire</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- JQUERY -->
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -46,6 +455,12 @@
         <script
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <!-- EKKO -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+            integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
             crossorigin="anonymous"
         ></script>
         <script src="app.js"></script>
